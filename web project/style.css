@@ -1,0 +1,82 @@
+@charset "utf-8";
+body{
+    background-color:darkslategrey;
+    font-family: Garamond, serif;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      padding: 20px;
+      background-color: palegoldenrod;
+      color: powderblue;
+}
+
+#title {
+    color: lightsteelblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.banner{
+    position: relative;
+    height: 400px;
+    background-image: url(maximalfocus-VT4rx775FT4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: palegoldenrod;
+    
+}
+
+address{
+    color: slategrey;
+    text-align: center;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    background-color: lightsteelblue;
+    padding: 20px;
+    width: 400px;
+    
+}
+
+wrapper h3{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    
+}
+
+form label{
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+section h2{
+    text-align: center;
+    color: black;
+}
+
+section p{
+    text-align: center;
+    color:black ;
+}
+
+video{
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: powderblue;
+
+}

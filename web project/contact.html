@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutmevid.mp4">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+    <h3>Contact Me</h3>
+
+    <form action="mailto:suzanne.biju@ontariotechu.net" method="post" enctype="text/plain" name="contact form">
+        <p>
+            <label for="First Name">First Name</label><br>
+            <input type="text" name="First Name" size="20" required><br>
+
+            <label for="Last Name">Last Name</label><br>
+            <input type="text" name="Last Name" size="20" required><br>
+
+            <label for="Email">Email Address</label><br>
+            <input name="Email" type="email" size="20" required><br>
+
+            <label for="Phone Number">Phone Number</label><br>
+            <input name="phone number" type="phone number" size="20"><br>
+
+            <label for="Message">Message</label><br>
+            <textarea name="Message" cols="40" rows="6" required></textarea><br>
+
+            <input type="Submit" value="Submit Form"/>
+
+        </p>
+    </form>
+    </div>
+
+    
+</body>
+</html>
